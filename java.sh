@@ -69,7 +69,7 @@ if [ ! -f "$jar_nome" ]; then
 # Verificar se o download foi bem-sucedido
     if [ $? -eq 0 ]; then
       echo "..."
-      cho -e "\033[${PURPLE}m[Noct.u]:${NC} Download do arquivo concluído com sucesso!"
+      echo -e "\033[${PURPLE}m[Noct.u]:${NC} Download do arquivo concluído com sucesso!"
       echo "..."
     else
       echo "..."
