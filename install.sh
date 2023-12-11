@@ -99,7 +99,7 @@ fi
 
 #Criando container do Banco de Dados
 sleep 5
-if sudo docker run -d -p 3306:3306 --name Noctu -e "MYSQL_DATABASE=noctuBD" -e "MYSQL_ROOT_PASSWORD=aluno" mysql:latest; then
+if sudo docker run -d -p 3306:3306 --name Noctu -e "MYSQL_DATABASE=noctu" -e "MYSQL_ROOT_PASSWORD=aluno" mysql:latest; then
     echo "..."
      echo -e "\033[${PURPLE}m[Noct.u]:${NC} Container do Banco de Dados criado com sucesso!"
     echo "..."

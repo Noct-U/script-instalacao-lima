@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL do arquivo JAR no GitHub
-jar_url="https://github.com/Noct-U/jar-individual-lima/raw/main/out/artifacts/noctu_looca_jar/noctu-looca.jar"
+jar_url="https://github.com/Guilherme142/jarzinho/raw/main/java-1.0-jar-with-dependencies.jar"
 
 # Nome do arquivo JAR após o download
 jar_nome="noctu-looca.jar"
