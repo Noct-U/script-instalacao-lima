@@ -4,7 +4,7 @@
 jar_url="https://github.com/Guilherme142/jarzinho/raw/main/java-1.0-jar-with-dependencies.jar"
 
 # Nome do arquivo JAR após o download
-jar_nome="noctu-looca.jar"
+jar_nome="java-1.0-jar-with-dependencies.jar"
 
 # verificando e instalando java 17
 sleep 5
